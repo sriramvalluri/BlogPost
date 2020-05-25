@@ -4,4 +4,5 @@ module.exports = {
   googleClientSecret: '8mkniDQOqacXtlRD3gA4n2az',
   mongoURI: 'mongodb://username:<password>@blog-dev-shard-00-00-yncbc.mongodb.net:27017,blog-dev-shard-00-01-yncbc.mongodb.net:27017,blog-dev-shard-00-02-yncbc.mongodb.net:27017/test?ssl=true&replicaSet=blog-dev-shard-0&authSource=admin&retryWrites=true&w=majority',
   cookieKey: '123123123',
+  redisUrl : 'redis://127.0.0.1:6379'
 };
